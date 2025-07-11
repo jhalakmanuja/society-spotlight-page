@@ -144,6 +144,11 @@ const societies: Society[] = [
 const Societies = () => {
   const [selectedSociety, setSelectedSociety] = useState<Society | null>(null);
 
+  const getInstagramUrl = (handle: string) => {
+    const cleanHandle = handle.replace('@', '');
+    return `https://www.instagram.com/${cleanHandle}`;
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
       <div className="container mx-auto px-4 py-12">
@@ -182,7 +187,15 @@ const Societies = () => {
                 </h3>
                 <div className="flex items-center text-gray-500 text-sm">
                   <Instagram className="w-4 h-4 mr-2" />
-                  <span>{society.instagram || 'Coming Soon'}</span>
+                  <a
+                    href={getInstagramUrl(society.instagram)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-purple-600 transition-colors duration-200"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    {society.instagram || 'Coming Soon'}
+                  </a>
                 </div>
               </div>
             </div>

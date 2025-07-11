@@ -25,6 +25,11 @@ const SocietyModal = ({ society, isOpen, onClose }: SocietyModalProps) => {
     }
   };
 
+  const getInstagramUrl = (handle: string) => {
+    const cleanHandle = handle.replace('@', '');
+    return `https://www.instagram.com/${cleanHandle}`;
+  };
+
   return (
     <div
       className="fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50 backdrop-blur-sm"
@@ -59,11 +64,18 @@ const SocietyModal = ({ society, isOpen, onClose }: SocietyModalProps) => {
                 <p className="text-purple-600 text-lg">{society.instagram}</p>
               </div>
               <Button
+                asChild
                 className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white"
                 size="sm"
               >
-                <ExternalLink className="w-4 h-4 mr-2" />
-                Visit
+                <a
+                  href={getInstagramUrl(society.instagram)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <ExternalLink className="w-4 h-4 mr-2" />
+                  Visit
+                </a>
               </Button>
             </div>
           )}
