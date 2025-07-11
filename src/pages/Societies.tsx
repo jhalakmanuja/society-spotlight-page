@@ -15,10 +15,10 @@ interface Society {
 const societies: Society[] = [
   {
     id: 1,
-    name: "Tech Innovators Society",
+    name: "IEEE ADGIPS",
     image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=400&h=300&fit=crop",
-    instagram: "@tech_innovators_club",
-    description: "A dynamic community of technology enthusiasts dedicated to exploring cutting-edge innovations, hosting hackathons, and fostering collaboration among aspiring developers, engineers, and tech entrepreneurs. We organize workshops, coding competitions, and tech talks to bridge the gap between academic learning and industry requirements."
+    instagram: "@ieee_adgips",
+    description: "IEEE ADGIPS is the premier technical society at our institution, dedicated to advancing technology for humanity. We organize workshops, seminars, and technical competitions to foster innovation among students. Our society provides a platform for students to explore cutting-edge technologies, participate in research projects, and connect with industry professionals."
   },
   {
     id: 2,
@@ -31,6 +31,7 @@ const societies: Society[] = [
     id: 3,
     name: "Environmental Action Group",
     image: "https://images.unsplash.com/photo-1517022812141-23620dba5c23?w=400&h=300&fit=crop",
+    instagram: "@green_warriors_adgips",
     description: "Committed to environmental sustainability and conservation efforts on campus and beyond. We organize tree plantation drives, clean-up campaigns, awareness workshops on climate change, and promote eco-friendly practices among students to create a greener, more sustainable future."
   },
   {
