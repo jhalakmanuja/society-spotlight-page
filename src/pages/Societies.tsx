@@ -17,64 +17,127 @@ const societies: Society[] = [
     id: 1,
     name: "IEEE ADGIPS",
     image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=400&h=300&fit=crop",
-    instagram: "@ieee_adgips",
+    instagram: "@ieeeadgips",
     description: "IEEE ADGIPS is the premier technical society at our institution, dedicated to advancing technology for humanity. We organize workshops, seminars, and technical competitions to foster innovation among students. Our society provides a platform for students to explore cutting-edge technologies, participate in research projects, and connect with industry professionals."
   },
   {
     id: 2,
-    name: "Cultural Heritage Society",
+    name: "AWAAZ ADGIPS",
     image: "https://images.unsplash.com/photo-1466442929976-97f336a657be?w=400&h=300&fit=crop",
-    instagram: "@cultural_heritage_soc",
-    description: "Preserving and celebrating diverse cultural traditions through festivals, art exhibitions, and cultural exchange programs. Our society brings together students from various backgrounds to share their heritage, organize traditional events, and promote cross-cultural understanding within our campus community."
+    instagram: "@awaaz.adgips",
+    description: "AWAAZ ADGIPS is the voice of our campus, dedicated to promoting awareness and advocacy through various media platforms. We organize debates, public speaking events, and awareness campaigns to amplify student voices and address important social issues."
   },
   {
     id: 3,
-    name: "Environmental Action Group",
+    name: "E-CELL ADGIPS",
     image: "https://images.unsplash.com/photo-1517022812141-23620dba5c23?w=400&h=300&fit=crop",
-    instagram: "@green_warriors_adgips",
-    description: "Committed to environmental sustainability and conservation efforts on campus and beyond. We organize tree plantation drives, clean-up campaigns, awareness workshops on climate change, and promote eco-friendly practices among students to create a greener, more sustainable future."
+    instagram: "@ecelladgips",
+    description: "E-CELL ADGIPS nurtures the entrepreneurial spirit among students by organizing startup competitions, business plan workshops, and mentorship programs. We connect aspiring entrepreneurs with industry professionals and provide resources for launching successful ventures."
   },
   {
     id: 4,
-    name: "Photography Society",
+    name: "QAAFILA ADGIPS",
     image: "https://images.unsplash.com/photo-1493962853295-0fd70327578a?w=400&h=300&fit=crop",
-    instagram: "@campus_shutterbugs",
-    description: "Capturing moments and telling stories through the lens. Our photography society welcomes both amateur and professional photographers to explore various genres, participate in photo walks, exhibitions, and competitions while learning advanced techniques and building a portfolio."
+    instagram: "@qaafila_adgips",
+    description: "QAAFILA ADGIPS is a cultural society that celebrates diversity and promotes cultural exchange through festivals, art exhibitions, and traditional events. We bring together students from various backgrounds to share their heritage and create a vibrant campus community."
   },
   {
     id: 5,
-    name: "Wildlife Conservation Club",
+    name: "GEEKS FOR GEEKS ADGIPS",
     image: "https://images.unsplash.com/photo-1452960962994-acf4fd70b632?w=400&h=300&fit=crop",
-    instagram: "@wildlife_guardians",
-    description: "Dedicated to wildlife protection and conservation awareness. We organize educational trips to national parks, conduct research on local fauna, participate in wildlife rescue operations, and create awareness campaigns about endangered species and habitat preservation."
+    instagram: "@geeksforgeeks_adgips",
+    description: "GEEKS FOR GEEKS ADGIPS is a technical community focused on competitive programming, coding challenges, and software development. We organize coding competitions, tech workshops, and study groups to enhance programming skills and problem-solving abilities."
   },
   {
     id: 6,
-    name: "Adventure Sports Society",
+    name: "THE INVINCIBLES",
     image: "https://images.unsplash.com/photo-1439886183900-e79ec0057170?w=400&h=300&fit=crop",
-    instagram: "@adventure_seekers_club",
-    description: "For thrill-seekers and outdoor enthusiasts who love pushing boundaries. We organize trekking expeditions, rock climbing sessions, camping trips, and extreme sports activities while prioritizing safety and building strong bonds among adventure lovers."
+    instagram: "@invincibles_adgips",
+    description: "THE INVINCIBLES is a sports and fitness society that promotes physical wellness and team spirit. We organize various sports tournaments, fitness challenges, and outdoor activities to encourage an active lifestyle among students."
   },
   {
     id: 7,
-    name: "Desert Exploration Society",
+    name: "NSS ADGIPS",
     image: "https://images.unsplash.com/photo-1469041797191-50ace28483c3?w=400&h=300&fit=crop",
-    instagram: "@desert_explorers",
-    description: "Exploring the mysteries and beauty of desert landscapes through organized expeditions, research projects, and cultural studies. We study desert ecosystems, organize camel safaris, and promote awareness about desert conservation and the communities that call these regions home."
+    instagram: "@nss_adgips_ggsipu",
+    description: "NSS ADGIPS is dedicated to community service and social welfare. We organize volunteer programs, social awareness campaigns, and community development projects to create positive impact in society and develop social responsibility among students."
   },
   {
     id: 8,
-    name: "Business & Entrepreneurship Society",
+    name: "THE CAMPUS CHRONICS",
     image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop",
-    instagram: "@future_entrepreneurs",
-    description: "Nurturing the next generation of business leaders and entrepreneurs through workshops, startup competitions, networking events, and mentorship programs. We connect students with industry professionals and provide resources for launching successful ventures."
+    instagram: "thecampuschronics.adgips",
+    description: "THE CAMPUS CHRONICS is our student journalism and media society. We document campus life, report on student activities, and create engaging content through newsletters, blogs, and social media to keep the campus community informed and connected."
   },
   {
     id: 9,
-    name: "Architecture & Design Society",
+    name: "CONFLUENZ ADGIPS",
     image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=400&h=300&fit=crop",
-    instagram: "@design_architects",
-    description: "Exploring the intersection of creativity and functionality in architecture and design. We organize design competitions, site visits to architectural marvels, workshops on sustainable building practices, and collaborate on community development projects."
+    instagram: "@confluenz",
+    description: "CONFLUENZ ADGIPS is a literary and cultural society that organizes poetry sessions, creative writing workshops, and cultural events. We provide a platform for students to express their creativity and showcase their artistic talents."
+  },
+  {
+    id: 10,
+    name: "FREAK STREETS",
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop",
+    instagram: "freak_streets",
+    description: "FREAK STREETS is a dynamic society focused on street culture, urban arts, and contemporary expressions. We organize street art exhibitions, hip-hop events, and urban culture festivals to celebrate modern artistic movements."
+  },
+  {
+    id: 11,
+    name: "YAKSHAGNA",
+    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=300&fit=crop",
+    instagram: "@yakshagna",
+    description: "YAKSHAGNA is a traditional performing arts society that preserves and promotes classical Indian cultural forms. We organize classical dance performances, music concerts, and cultural workshops to maintain our rich cultural heritage."
+  },
+  {
+    id: 12,
+    name: "SWARANJALI ADGIPS",
+    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=300&fit=crop",
+    instagram: "@swaranjaliadgips",
+    description: "SWARANJALI ADGIPS is a music society dedicated to promoting various forms of musical expression. We organize concerts, music competitions, and workshops covering classical, contemporary, and fusion music genres."
+  },
+  {
+    id: 13,
+    name: "ALFAAZ",
+    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=400&h=300&fit=crop",
+    instagram: "@alfaaz.adgips",
+    description: "ALFAAZ is a literary society that celebrates the power of words through poetry, storytelling, and creative writing. We organize open mic sessions, literary competitions, and writing workshops to nurture creative expression."
+  },
+  {
+    id: 14,
+    name: "NRITYAKUMBH",
+    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=400&h=300&fit=crop",
+    instagram: "@nrityakumbh_adgips",
+    description: "NRITYAKUMBH is a dance society that promotes various dance forms from classical to contemporary. We organize dance competitions, workshops, and cultural performances to showcase the beauty and diversity of dance."
+  },
+  {
+    id: 15,
+    name: "ROBOGYAN",
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop",
+    instagram: "@robogyan_official",
+    description: "ROBOGYAN is a robotics and automation society that explores the fascinating world of robotics and artificial intelligence. We organize robotics competitions, workshops on emerging technologies, and hands-on projects in automation."
+  },
+  {
+    id: 16,
+    name: "VIRSA BHANGRA SOCIETY",
+    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=300&fit=crop",
+    instagram: "@virsabhangraregiment",
+    description: "VIRSA BHANGRA SOCIETY celebrates Punjabi culture through energetic Bhangra performances. We organize cultural events, dance competitions, and festivals to promote the vibrant traditions of Punjab and spread joy through dance."
+  },
+  {
+    id: 17,
+    name: "AVANT GRADE",
+    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=300&fit=crop",
+    instagram: "@avantgarde.adgips",
+    description: "AVANT GRADE is an innovative society that promotes cutting-edge ideas and experimental approaches in various fields. We organize design thinking workshops, innovation challenges, and creative problem-solving sessions."
+  },
+  {
+    id: 18,
+    name: "WORD WIZARD ADGIPS",
+    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=400&h=300&fit=crop",
+    instagram: "@word.wizard.adgips",
+    description: "WORD WIZARD ADGIPS is a society dedicated to enhancing communication skills and linguistic abilities. We organize debate competitions, public speaking workshops, and language learning sessions to improve verbal and written communication."
   }
 ];
 
